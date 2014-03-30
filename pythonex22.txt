@@ -1,0 +1,47 @@
+# 		octothorpe; used to comment out code
+"xyz"		"" used to create a string
+print		prints to the screen anything in that line
+space_in_car = 4	space_in_car is a variable that can be set to equal a string, value, or other variable
++ - / * 	mathematical operations; when used to calculate a value, they should not be inside a string
+%		modulus; yields the remainder when one value is divided by another
+.		decimal is used to create a floating point number; if not used, value will be rounded to the nearest integer
+%		modulus; can also be used as a formatter; ie. %r, %s, %d, %f for variables inserted into a string
+		must use the same number of variables outside string as are in the string
++ 		can be used to attach two strings together
+,		at the end of a line combines the line with the one after it; otherwise, there is an assumed new line
+*		strings can be multiplied; the * and number by which to multiply go outside the string
+\n		new line escape; creates a new line when used in a string; must be a backslash, not forward slash
+""" or '''	triple quotes allow you to 'print' as many lines as you want until you close the triple quotes with 3 more
+\t		tab escape; adds a tabbed in line to a string
+\\		backslash escape; prints a backslash
+\' or \"	quote escape; prints a quote character rather than using it to close or open a string
+raw_input()	takes raw input from a user and prints or uses it;
+		can be used as either raw_input = "xyz? " as a prompt, or prompt can be first:
+		"xyz? ", followed by a line determining a variable ie. name = raw_input()
+		or the variable can be set using raw input ie. name = raw_input("xyz? ")
+input()		does the same as raw_input, but can break code more easily; 
+		raw_input takes exactly what is typed and uses it, even if it doesn't fit with the code
+from		looks in the defined 'module' or 'library' to imported a pre-defined argument (?)
+import		this command imports a library
+argv		library, aka module, that takes input from the command line to run in a script; 
+		the variables to be input in the command line must be defined in the script, ie.
+		script, first = argv	then the script as well as one input must be input in CL
+script		code written into a .py file to be opened and run by python
+open()		opens the specified object; must be done before any other commands can be run on the object
+		and defined as an object on which commands can be performed
+		with no specification, default is for the file to open in 'read' mode, or 'r'
+.read()		reads object to the screen in full; the object to which the read command is applied comes before the .
+.close()	closes the object; as above, the object to which the close commaned is applied comes before the .
+ CTRL+C		escapes out of running script
+open(x, 'w')	opening a file in 'write' mode, allowing edits
+.truncate()	a command that empties the file the preceeds the .
+.write()	this command writes to the file that preceeds the .
+= open().read()	applies both the open and read commands to a file at the same time
+		you can open() a file that does not exist in order to create a new file
+len()		finds the length of an object in bytes
+exists		a library argument (?) that gives output True or False
+def		defines a function for a set of variables; is followed by the function name, then (variables)
+(tab)		a tab in from the left automatically assigns the code on that line(s) to the justified line above
+*args		when used as the variable in a function, this means you are going to define the variable with another line
+""" """		inside a function, they are called "documentation comments" and will appear if help is sought about that code
+CTRL+Z		another way to escape out of python when it is open in PS

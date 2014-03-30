@@ -1,0 +1,68 @@
+mkdir = make directory
+rmdir = remove directory
+ls = list directory
+mkdir -p = creates path of directories
+cd = change directory
+pushd = move out to a directory, while calling "sos" where you are
+popd = move back to where you were
+New-Item = create a new item
+-type = to define item type, followed by "file" or "dir"
+cp = copy an item, list item, then space, followed by copied name. To copy to a new location, type file path for new location.
+-r = recurse, includes all items in a file
+mv = move or rename an item. list item name + space followed by new name or new location
+more = open a file, page by page
+cat = type = gc (get content?) = opens the entire file onto the screen
+rm = remove
+rm -r = allows you to delete a file with items in it, be CAREFUL using recursive deleting files. Make sure you want to delete everything.
+| = "pipes" output from command on left to command on right (puts them in line together, like merging two columns in excel)
+> = takes output from command on left and writes it to file on right
+>> = takes output from command on left and appends it to file on the right
+* = wildcard
+dir -r -filter = search
+select-string = search for content 
+help = type help + any command to get information of what that command does
+$env = find environment; to change PATH, enter: $env:PATH = $env:PATH + (alteration to path)
+get-childitem ENV: = list environment variables
+$Env:(name new environment variable) = (definition of new environment variable)
+forfiles = run a command on all files
+runas = allows a user to run specific programs and files with different permissions than those the user is currently logged in as
+attrib = displays attributes of all files in the current directory
+icacls = displays or modifies discretionary access control lists (DACLs)
+# = comment out a piece of code, or use as a comment to explain code 
+python = run python
+exit() or quit() = exit python
+== checks if two things are equal
+string format variables (format variable must start with a character, not a number):
+%s = string
+%d = integer decimal
+%r = prints any variable (displays "raw" data variable, or "representation"); good for debugging
+%f = floating point decimal
+Boolean Value = logical data type, having two values (ie. True & False)
+"a string is surrounded by quotes" and a_variable_uses_underscore_for_spaces
+It is "bad style" to write a line of python code with more than 80 characters
+\n = new line character, to advance the following to the next line
+\\ = prints one backslash
+\" = escape double-quote, tells python the following " is a part of the string and does not close the string
+\ (+ character/s) = escape sequence (ie. \t tabbed in, \n new line, \\ prints backslash, \", \', \r carriage return, \v vertical tab)
+	list here: http://learnpythonthehardway.org/book/ex10.html
+int(raw_input()) takes raw input and converts it to an integer
+python -m pydoc [function] = for information lookup about a specific python funtion
+use the . followed by a command on txt file 
+commands = functions = methods
+close() = closes the file
+read() = reads the file
+readline() = reads just one line of the file
+truncate() = empties the file (CAREFUL!)
+write(stuff) = writes stuff into the file
+ide = integrated development environment
+IRC = FreeNode network for opensource developers 
+
+PyLadies: Rachel, Thursday, Stephanie
+
+class = type of object
+methods are defined for specific classes
+x += 1 is like writing x = x + 1 
+, at the end of a line effectively removes the assumed \n at the end of the line
+MCV = Model Control View (Model deals with data(python, SQL, R, C++, Java), Control deals with the interaction (Javascript), View deals with visual (HTML/CSS))
+ELIF = ?
+Bitwise Exclusive Or
